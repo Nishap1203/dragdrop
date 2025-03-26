@@ -21,10 +21,7 @@ function InnerCard({ id, name }) {
     transform: CSS.Transform.toString(transform),
     transition,
   };
-
-  console.log("Herere");
   
-
   return (
     <div
       ref={setNodeRef}
